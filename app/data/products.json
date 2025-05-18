@@ -1,181 +1,181 @@
 [
   {
     "id": 1,
-    "image": "/products/flamengo-2324.jpg",
+    "image": "/products/flamengo-2324.webp",
     "title": "Camisa Flamengo 23/24",
     "price": "R$ 299,90"
   },
   {
     "id": 2,
-    "image": "/products/palmeiras-2324.jpg",
+    "image": "/products/palmeiras-2324.webp",
     "title": "Camisa Palmeiras 23/24",
     "price": "R$ 279,90"
   },
   {
     "id": 3,
-    "image": "/products/corinthians-2324.jpg",
+    "image": "/products/corinthians-2324.webp",
     "title": "Camisa Corinthians 23/24",
     "price": "R$ 269,90"
   },
   {
     "id": 4,
-    "image": "/products/sao-paulo-2324.jpg",
+    "image": "/products/sao-paulo-2324.webp",
     "title": "Camisa São Paulo 23/24",
     "price": "R$ 259,90"
   },
   {
     "id": 5,
-    "image": "/products/gremio-2324.jpg",
+    "image": "/products/gremio-2324.webp",
     "title": "Camisa Grêmio 23/24",
     "price": "R$ 279,90"
   },
   {
     "id": 6,
-    "image": "/products/internacional-2324.jpg",
+    "image": "/products/internacional-2324.webp",
     "title": "Camisa Internacional 23/24",
     "price": "R$ 259,90"
   },
   {
     "id": 7,
-    "image": "/products/cruzeiro-2324.jpg",
+    "image": "/products/cruzeiro-2324.webp",
     "title": "Camisa Cruzeiro 23/24",
     "price": "R$ 249,90"
   },
   {
     "id": 8,
-    "image": "/products/atletico-mg-2324.jpg",
+    "image": "/products/atletico-mg-2324.webp",
     "title": "Camisa Atlético-MG 23/24",
     "price": "R$ 269,90"
   },
   {
     "id": 9,
-    "image": "/products/bahia-2324.jpg",
+    "image": "/products/bahia-2324.webp",
     "title": "Camisa Bahia 23/24",
     "price": "R$ 239,90"
   },
   {
     "id": 10,
-    "image": "/products/santos-2324.jpg",
+    "image": "/products/santos-2324.webp",
     "title": "Camisa Santos 23/24",
     "price": "R$ 259,90"
   },
   {
     "id": 11,
-    "image": "/products/vasco-2324.jpg",
-    "title": "Camisa Vasco 23/24",
+    "image": "/products/vasco-1988.webp",
+    "title": "Camisa Vasco 1988",
     "price": "R$ 269,90"
   },
   {
     "id": 12,
-    "image": "/products/botafogo-2324.jpg",
+    "image": "/products/botafogo-2324.webp",
     "title": "Camisa Botafogo 23/24",
     "price": "R$ 279,90"
   },
   {
     "id": 13,
-    "image": "/products/fluminense-2324.jpg",
+    "image": "/products/fluminense-2324.webp",
     "title": "Camisa Fluminense 23/24",
     "price": "R$ 269,90"
   },
   {
     "id": 14,
-    "image": "/products/fortaleza-2324.jpg",
+    "image": "/products/fortaleza-2324.webp",
     "title": "Camisa Fortaleza 23/24",
     "price": "R$ 239,90"
   },
   {
     "id": 15,
-    "image": "/products/ceara-2324.jpg",
+    "image": "/products/ceara-2324.jpeg",
     "title": "Camisa Ceará 23/24",
     "price": "R$ 239,90"
   },
   {
     "id": 16,
-    "image": "/products/athletico-pr-2324.jpg",
+    "image": "/products/atletico-pr-2324.jpeg",
     "title": "Camisa Athletico-PR 23/24",
     "price": "R$ 259,90"
   },
   {
     "id": 17,
-    "image": "/products/goias-2324.jpg",
+    "image": "/products/goias-2324.jpeg",
     "title": "Camisa Goiás 23/24",
     "price": "R$ 229,90"
   },
   {
     "id": 18,
-    "image": "/products/avai-2324.jpg",
+    "image": "/products/avai-2324.jpeg",
     "title": "Camisa Avaí 23/24",
     "price": "R$ 219,90"
   },
   {
     "id": 19,
-    "image": "/products/figueirense-2324.jpg",
+    "image": "/products/figueirense-2324.webp",
     "title": "Camisa Figueirense 23/24",
     "price": "R$ 219,90"
   },
   {
     "id": 20,
-    "image": "/products/chapecoense-2324.jpg",
+    "image": "/products/chapecoense-2324.webp",
     "title": "Camisa Chapecoense 23/24",
     "price": "R$ 229,90"
   },
   {
     "id": 21,
-    "image": "/products/nautico-2324.jpg",
+    "image": "/products/nautico-2324.webp",
     "title": "Camisa Náutico 23/24",
     "price": "R$ 219,90"
   },
   {
     "id": 22,
-    "image": "/products/sport-2324.jpg",
+    "image": "/products/sport-2324.jpeg",
     "title": "Camisa Sport 23/24",
     "price": "R$ 239,90"
   },
   {
     "id": 23,
-    "image": "/products/santa-cruz-2324.jpg",
+    "image": "/products/santa-cruz-2324.webp",
     "title": "Camisa Santa Cruz 23/24",
     "price": "R$ 209,90"
   },
   {
     "id": 24,
-    "image": "/products/juventude-2324.jpg",
+    "image": "/products/juventude-2324.webp",
     "title": "Camisa Juventude 23/24",
     "price": "R$ 219,90"
   },
   {
     "id": 25,
-    "image": "/products/bragantino-2324.jpg",
+    "image": "/products/bragantino-2324.webp",
     "title": "Camisa Bragantino 23/24",
     "price": "R$ 229,90"
   },
   {
     "id": 26,
-    "image": "/products/ponte-preta-2324.jpg",
+    "image": "/products/ponte-preta-1999.webp",
     "title": "Camisa Ponte Preta 23/24",
     "price": "R$ 209,90"
   },
   {
     "id": 27,
-    "image": "/products/guarani-2324.jpg",
+    "image": "/products/guarani-2324.webp",
     "title": "Camisa Guarani 23/24",
     "price": "R$ 209,90"
   },
   {
     "id": 28,
-    "image": "/products/america-mg-2324.jpg",
+    "image": "/products/america-mg-2324.jpeg",
     "title": "Camisa América-MG 23/24",
     "price": "R$ 239,90"
   },
   {
     "id": 29,
-    "image": "/products/crb-2324.jpg",
+    "image": "/products/crb-2324.webp",
     "title": "Camisa CRB 23/24",
     "price": "R$ 219,90"
   },
   {
     "id": 30,
-    "image": "/products/ituano-2324.jpg",
+    "image": "/products/ituano-2324.webp",
     "title": "Camisa Ituano 23/24",
     "price": "R$ 209,90"
   }
