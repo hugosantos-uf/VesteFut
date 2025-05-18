@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <nav>
-        <ul className="flex gap-2">
+        <ul className="flex gap-5">
           <Li link={"/home"}>Home</Li>
           <Li link={"/products"}>Produtos</Li>
           <Li link={"#"}>Sobre</Li>

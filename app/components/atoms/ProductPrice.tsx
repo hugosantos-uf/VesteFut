@@ -1,5 +1,3 @@
-import React from "react";
-
-export const ProductPrice = ({ price }: { price: string }) => (
-  <p className="text-green-600 font-bold text-sm">{price}</p>
-);
+export function ProductPrice({ price }: { price: string }) {
+  return <p className="text-3xl text-green-600 font-semibold mt-2">{price}</p>;
+}

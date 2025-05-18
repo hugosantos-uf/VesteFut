@@ -1,5 +1,3 @@
-import React from "react";
-
-export const ProductTitle = ({ title }: { title: string }) => (
-  <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
-);
+export function ProductTitle({ title }: { title: string }) {
+  return <h1 className="text-4xl font-bold mt-4">{title}</h1>;
+}

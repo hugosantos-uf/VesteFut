@@ -1,5 +1,3 @@
-import React from "react";
-
-export const ProductImage = ({ src, alt }: { src: string; alt: string }) => (
-  <img src={src} alt={alt} className="w-full h-48 object-cover rounded-t-lg" />
-);
+export function ProductImage({ src, alt }: { src: string; alt: string }) {
+  return <img src={src} alt={alt} className="w-full h-auto rounded-lg" />;
+}

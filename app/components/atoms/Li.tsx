@@ -8,10 +8,8 @@ type LiProps = {
 
 export default function Li({ children, link }: LiProps) {
   return (
-    <>
-      <li>
-        <Link href={link}>{children}</Link>
-      </li>
-    </>
+    <li className="font-medium hover:text-green-600 transition-colors duration-200">
+      <Link href={link}>{children}</Link>
+    </li>
   );
 }

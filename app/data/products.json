@@ -32,7 +32,7 @@
   {
     "id": 6,
     "image": "/products/internacional-2324.webp",
-    "title": "Camisa Internacional 23/24",
+    "title": "Camisa Internacional",
     "price": "R$ 259,90"
   },
   {
@@ -92,7 +92,7 @@
   {
     "id": 16,
     "image": "/products/atletico-pr-2324.jpeg",
-    "title": "Camisa Athletico-PR 23/24",
+    "title": "Camisa Athletico-PR",
     "price": "R$ 259,90"
   },
   {
@@ -116,7 +116,7 @@
   {
     "id": 20,
     "image": "/products/chapecoense-2324.webp",
-    "title": "Camisa Chapecoense 23/24",
+    "title": "Camisa Chapecoense",
     "price": "R$ 229,90"
   },
   {
@@ -164,7 +164,7 @@
   {
     "id": 28,
     "image": "/products/america-mg-2324.jpeg",
-    "title": "Camisa América-MG 23/24",
+    "title": "Camisa América-MG",
     "price": "R$ 239,90"
   },
   {
