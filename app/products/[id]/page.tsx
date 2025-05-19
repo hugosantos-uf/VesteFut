@@ -2,7 +2,7 @@ import ProductContent from "@/app/components/templates/ProductContent";
 
 type Params = {
   params: {
-    id: number;
+    id: string;
   };
 };
 
