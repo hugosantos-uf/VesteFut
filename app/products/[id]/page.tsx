@@ -1,5 +1,11 @@
 import ProductContent from "@/app/components/templates/ProductContent";
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  return <ProductContent id={Number(params.id)} />;
+export default async function ProductPage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const id = Number(await params.id);
+
+  return <ProductContent id={id} />;
 }
