@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 export const ProductCardImage = ({
   src,
   alt,
@@ -7,5 +9,11 @@ export const ProductCardImage = ({
   src: string;
   alt: string;
 }) => (
-  <img src={src} alt={alt} className="w-full h-48 object-cover rounded-t-lg" />
+  <Image
+    src={src}
+    alt={alt}
+    width={500}
+    height={192}
+    className="w-full h-48 object-cover rounded-t-lg"
+  />
 );

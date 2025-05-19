@@ -18,14 +18,27 @@ export default function ImageMagnifier({
 }: ImageMagnifierProps) {
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
   const imgRef = useRef<HTMLImageElement | null>(null);
 
   const handleMouseMove = (e: React.MouseEvent) => {
-    const { top, left } = imgRef.current!.getBoundingClientRect();
+    const img = imgRef.current;
+    if (!img) return;
 
+    const { top, left } = img.getBoundingClientRect();
     const x = e.pageX - left - window.scrollX;
     const y = e.pageY - top - window.scrollY;
     setMousePosition({ x, y });
+  };
+
+  const handleImageLoad = () => {
+    const img = imgRef.current;
+    if (img) {
+      setImageSize({
+        width: img.width,
+        height: img.height,
+      });
+    }
   };
 
   return (
@@ -39,6 +52,7 @@ export default function ImageMagnifier({
         ref={imgRef}
         src={src}
         alt={alt}
+        onLoad={handleImageLoad}
         className="w-[800px] h-[600px] object-cover rounded-lg"
       />
       {showMagnifier && (
@@ -51,8 +65,8 @@ export default function ImageMagnifier({
             left: `${mousePosition.x - magnifierWidth / 2}px`,
             backgroundImage: `url('${src}')`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: `${imgRef.current?.width! * zoomLevel}px ${
-              imgRef.current?.height! * zoomLevel
+            backgroundSize: `${imageSize.width * zoomLevel}px ${
+              imageSize.height * zoomLevel
             }px`,
             backgroundPositionX: `${
               -mousePosition.x * zoomLevel + magnifierWidth / 2

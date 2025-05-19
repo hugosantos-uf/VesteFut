@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../atoms/Logo";
 import Navbar from "../molecules/NavBar";
-import SearchInput from "../atoms/Search";
 
 export default function Header() {
   return (

@@ -1,4 +1,3 @@
-// src/hooks/useFetchProducts.ts
 import { useEffect, useState } from "react";
 import productsData from "../data/products.json";
 
@@ -18,11 +17,10 @@ export default function useFetchProducts() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        // simula chamada a API
         await new Promise((resolve) => setTimeout(resolve, 1000));
         setProducts(productsData);
-      } catch (_) {
-        setError("Erro ao carregar produtos.");
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Erro desconhecido");
       } finally {
         setLoading(false);
       }
