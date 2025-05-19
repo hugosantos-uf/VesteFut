@@ -1,3 +1,5 @@
+"use client";
+
 import { useProductById } from "@/app/hooks/useProductById";
 import ProductDetails from "@/app/components/molecules/ProductDetails";
 import ImageMagnifier from "../atoms/ImageMagnifier";
