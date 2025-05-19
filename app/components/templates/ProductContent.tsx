@@ -1,5 +1,4 @@
 import { useProductById } from "@/app/hooks/useProductById";
-import { ProductImage } from "@/app/components/atoms/ProductImage";
 import ProductDetails from "@/app/components/molecules/ProductDetails";
 import ImageMagnifier from "../atoms/ImageMagnifier";
 

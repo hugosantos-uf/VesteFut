@@ -21,7 +21,7 @@ export default function useFetchProducts() {
         // simula chamada a API
         await new Promise((resolve) => setTimeout(resolve, 1000));
         setProducts(productsData);
-      } catch (err) {
+      } catch (_) {
         setError("Erro ao carregar produtos.");
       } finally {
         setLoading(false);

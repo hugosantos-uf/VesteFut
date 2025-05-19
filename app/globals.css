@@ -1,21 +1,8 @@
 @import "tailwindcss";
 
-* {
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Bebas Neue";
-  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 html,
 body {
   height: 100%;
-  font-family: "Bebas Neue", sans-serif;
   background-color: #f9fafb; /* gray-50 - leveza */
   color: #1f2937; /* gray-800 - contraste */
   scroll-behavior: smooth;
