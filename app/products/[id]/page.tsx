@@ -1,11 +1,13 @@
 import ProductContent from "@/app/components/templates/ProductContent";
 
-export default async function ProductPage({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const id = Number(await params.id);
+type paramsType = Promise<{ id: string }>;
 
-  return <ProductContent id={id} />;
+export default async function ProductPage(props: { params: paramsType }) {
+  const { id } = await props.params;
+  const number = Number(id);
+  return (
+    <>
+      <ProductContent id={number} />
+    </>
+  );
 }
