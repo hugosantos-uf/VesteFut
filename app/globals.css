@@ -1,22 +1,17 @@
 @import "tailwindcss";
 
-/* Importações Tailwind *
-
-/* Reset básico para consistência entre navegadores */
 * {
   box-sizing: border-box;
 }
 
-/* Fonte personalizada (opcional) */
 @font-face {
-  font-family: "Bebas Neue"; /* ou outra fonte esportiva */
+  font-family: "Bebas Neue";
   src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Corpo da aplicação */
 html,
 body {
   height: 100%;
@@ -26,5 +21,3 @@ body {
   scroll-behavior: smooth;
   @apply antialiased;
 }
-
-/* Links */

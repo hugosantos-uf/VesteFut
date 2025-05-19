@@ -1,4 +1,3 @@
-import { Section } from "lucide-react";
 import Product from "../molecules/Product";
 import products from "@/app/data/products.json";
 

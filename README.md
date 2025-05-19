@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏆 VestFut - E-commerce de Camisas de Futebol
 
-## Getting Started
+VestFut é um e-commerce fictício de camisas de futebol, desenvolvido com **Next.js**, **TailwindCSS** e com arquitetura baseada em **Design Atômico**. O objetivo do projeto é fornecer uma interface moderna, acessível e responsiva, focada na experiência do usuário.
 
-First, run the development server:
+## ✨ Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Página Home com seção _Hero_, avaliações e destaques.
+- Catálogo de produtos com detalhes completos.
+- Página de produto com imagem ampliável e informações de compra.
+- Página Sobre e Contato.
+- Layout responsivo para dispositivos móveis e desktop.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧱 Arquitetura Atômica
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este projeto segue a metodologia do **Design Atômico**, separando os componentes em:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `atoms/` - Elementos básicos como botões, inputs e imagens.
+- `molecules/` - Combinação de átomos, como cards de produto e campos de busca.
+- `organisms/` - Componentes compostos maiores, como header, footer e seções.
+- `templates/` - Estrutura de páginas com layout definido.
 
-## Learn More
+## 🛠 Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/) – Framework React com renderização SSR/SSG.
+- [TailwindCSS](https://tailwindcss.com/) – Framework CSS utilitário para estilização rápida.
+- [TypeScript](https://www.typescriptlang.org/) – Tipagem estática para JavaScript.
+- [JSON Data Mock](https://www.json.org/) – Simulação de API com arquivos locais.
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html) – Para gerenciar estado e lógica reutilizável.
