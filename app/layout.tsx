@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "./components/organisms/Footer";
 import Header from "./components/organisms/Header";
 import { Roboto } from "next/font/google";
+import { FavoritesProvider } from "@/app/context/FavoritesContext";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -23,9 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.className} min-h-screen flex flex-col`}>
-        <Header></Header>
-        <main className="flex-grow">{children}</main>
-        <Footer></Footer>
+        <FavoritesProvider>
+          <Header></Header>
+          <main className="flex-grow">{children}</main>
+          <Footer></Footer>
+        </FavoritesProvider>
       </body>
     </html>
   );
