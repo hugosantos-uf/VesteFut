@@ -3,11 +3,11 @@ import { ProductPrice } from "../atoms/ProductPrice";
 import { ProductPixPrice } from "../atoms/ProductPixPrice";
 import { ProductInstallments } from "../atoms/ProductInstallments";
 import { ProductPromotionAlert } from "../atoms/ProductPromotionAlert";
-import { ProductSizeSelector } from "../atoms/ProductSize";
-import { ProductZipInput } from "../atoms/ProductZipInput";
+import { ProductSizeSelector } from "../atoms/ProductSize/ProductSize";
+import { ProductZipInput } from "../atoms/ProductZipInput/ProductZipInput";
 import { ProductNameInput } from "../atoms/ProductNameInput";
 import { BuyButton } from "../atoms/BuyButton";
-import { LikeButton } from "../atoms/LikeButton";
+import { LikeButton } from "../atoms/LikeButton/LikeButton";
 import { ShareButton } from "../atoms/ShareButton";
 
 interface Props {
@@ -23,7 +23,7 @@ export default function ProductDetails({ title, price }: Props) {
       <ProductPixPrice price={price} />
       <ProductInstallments price={price} />
       <ProductPromotionAlert />
-      <div className="flex gap-4 mt-2 items-center">
+      <div className="flex gap-4 mt-2">
         <LikeButton title={title} />
         <ShareButton />
       </div>

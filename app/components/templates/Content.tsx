@@ -1,7 +1,7 @@
 "use client";
 
 import useFetchProducts from "@/app/hooks/useFetchProducts";
-import Product from "../molecules/Product";
+import Product from "../molecules/ProductCard/Product";
 
 export default function Content() {
   const { products, loading, error } = useFetchProducts();

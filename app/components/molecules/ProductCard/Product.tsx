@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { ProductCardImage } from "../atoms/ProductCardImage";
-import { ProductCardTitle } from "../atoms/ProductCardTitle";
-import { ProductCardPrice } from "../atoms/ProductCardPrice";
-import { AddToCartButton } from "../atoms/AddToCartButton";
+import { ProductCardImage } from "../../atoms/ProductCardImage";
+import { ProductCardTitle } from "../../atoms/ProductCardTitle";
+import { ProductCardPrice } from "../../atoms/ProductCardPrice";
+import { AddToCartButton } from "../../atoms/AddToCartButton";
 
 interface ProductProps {
   id: number;

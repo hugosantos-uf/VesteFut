@@ -10,6 +10,7 @@ export default function Navbar() {
           <Li link={"/products"}>Produtos</Li>
           <Li link={"/about"}>Sobre</Li>
           <Li link={"/contact"}>Contato</Li>
+          <Li link={"/signup"}>Cadastre-se</Li>
         </ul>
       </nav>
     </>

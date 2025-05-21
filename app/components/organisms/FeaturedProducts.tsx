@@ -1,4 +1,4 @@
-import Product from "../molecules/Product";
+import Product from "../molecules/ProductCard/Product";
 import products from "@/app/data/products.json";
 
 export default function FeaturedProducts() {
