@@ -2,10 +2,10 @@
 
 import { useTranslations } from "next-intl";
 import React, { useState, useEffect, useRef } from "react";
-import Li from "../atoms/Li";
+import Li from "../atoms/Li"; //
 import LanguageSwitcher from "./LanguageSwitcher";
-import { Menu, X } from "lucide-react"; // Import Menu and X icons
-import { Link } from "@/i18n/navigation"; // For mobile dropdown links
+import { Menu, X } from "lucide-react";
+import { Link } from "@/i18n/navigation"; //
 
 export default function Navbar() {
   const t = useTranslations("navbar");
@@ -20,7 +20,6 @@ export default function Navbar() {
     { href: "/signup", label: t("signup") },
   ];
 
-  // Close mobile menu when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
@@ -41,12 +40,8 @@ export default function Navbar() {
 
   return (
     <div ref={navRef} className="relative flex items-center">
-      {/* --- Mobile View --- */}
       <div className="flex items-center md:hidden">
-        {/* Hamburger Icon */}
-
         <LanguageSwitcher />
-        {/* Language Switcher (Mobile) - next to hamburger */}
         <div className="ml-2">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -60,7 +55,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* --- Desktop View --- */}
       <nav className="hidden md:flex items-center gap-4">
         <ul className="flex gap-5 items-center">
           {navLinks.map((link) => (
@@ -69,23 +63,21 @@ export default function Navbar() {
             </Li>
           ))}
         </ul>
-        {/* Language Switcher (Desktop) */}
         <LanguageSwitcher />
       </nav>
 
-      {/* Mobile Dropdown Menu Content */}
       {isMobileMenuOpen && (
         <div
           id="mobile-menu-dropdown"
-          className="absolute top-full right-0 mt-2 w-full w-sm bg-white shadow-lg rounded-md md:hidden z-50 ring-1 ring-black ring-opacity-5"
+          className="absolute top-full right-0 mt-2 w-56 bg-white shadow-lg rounded-md md:hidden z-50 ring-1 ring-black ring-opacity-5"
         >
-          <ul className="flex flex-col py-2">
+          <ul className="flex flex-col py-1">
             {navLinks.map((link) => (
               <li key={link.href} className="w-full">
                 <Link
                   href={link.href}
-                  className="block px-4 py-3 text-base text-gray-700 hover:bg-gray-100 hover:text-green-600 transition-colors"
-                  onClick={handleLinkClick} // Close menu on link click
+                  className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 hover:text-green-600 transition-colors"
+                  onClick={handleLinkClick}
                 >
                   {link.label}
                 </Link>
