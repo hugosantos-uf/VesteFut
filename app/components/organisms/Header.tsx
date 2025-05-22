@@ -5,7 +5,7 @@ import Navbar from "../molecules/NavBar";
 export default function Header() {
   return (
     <>
-      <header className="w-full bg-white shadow-md px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-50">
+      <header className="w-full bg-white shadow-md px-6 py-4 flex  items-center justify-between gap-4 sticky top-0 z-50">
         <Logo />
 
         <Navbar />
