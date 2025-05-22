@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { ProductCardImage } from "../../atoms/ProductCardImage";
 import { ProductCardTitle } from "../../atoms/ProductCardTitle";
 import { ProductCardPrice } from "../../atoms/ProductCardPrice";
