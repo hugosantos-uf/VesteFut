@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "signup": "Sign Up"
+  },
+  "products": {
+    "loading": "Loading products...",
+    "error": "An error occurred while loading the products."
+  },
+  "productDetails": {
+    "pixPrice": "with Pix (10% off)",
+    "installments": "or 6x of R$ {value} interest-free",
+    "promotion": "Hurry! Offer valid until Sunday 🔥",
+    "like": "Like",
+    "liked": "Liked",
+    "share": "Share",
+    "shareAlert": "Link copied to clipboard!",
+    "sizeLabel": "Size",
+    "zipLabel": "Calculate shipping:",
+    "zipPlaceholder": "Enter your ZIP code",
+    "nameLabel": "Custom name on the shirt:",
+    "namePlaceholder": "e.g. John Smith",
+    "buyButton": "Buy now"
+  },
+  "hero": {
+    "title": "The shirts of your dreams",
+    "subtitle": "Buy now and get up to 10% off with Pix!",
+    "button": "See offers"
+  },
+  "main": {
+    "favoritesTitle": "Fan Favorites",
+    "reviewsTitle": "Customer Reviews",
+    "review1": "Great quality shirt! It arrived very quickly.",
+    "review2": "Comfortable fabric and excellent finishing.",
+    "review3": "I really liked the service and delivery!",
+    "review4": "The Pix discount was totally worth it. I recommend it!"
+  },
+  "footer": {
+    "description": "Official jerseys of the world's top clubs.",
+    "copyright": "© 2025 VestFut. All rights reserved."
+  },
+  "button": {
+    "cart": "Cart"
+  },
+  "about": {
+    "story": {
+      "title": "Our Story",
+      "text": "VestFut was born out of a passion for football and style. Since 2023, we’ve offered team shirts that combine authenticity with modern design."
+    },
+    "motivation": {
+      "title": "Our Motivation",
+      "text": "We aim to bring fans closer to their clubs with high-quality, affordable products that have a strong visual identity."
+    },
+    "values": {
+      "title": "Our Values",
+      "text": "We work with ethics, a passion for sports, respect for diversity, and a constant commitment to customer experience."
+    }
+  },
+  "contact": {
+    "title": "Contact VestFut",
+    "description": "If you have questions, suggestions, or want to reach out to our team, fill out the form below. We'll be happy to get back to you!",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Write your message here"
+      },
+      "button": "Send Message"
+    }
+  },
+  "signup": {
+    "title": "Create your VestFut account",
+    "subtitle": "Sign up now and get 10% off your first three purchases and more exclusive deals!",
+    "button": "Register",
+    "placeholders": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "errors": {
+      "name": "Name is required",
+      "email": "Invalid email",
+      "password": "Password must be at least 6 characters",
+      "confirmPassword": "Passwords do not match"
+    }
+  }
+}

@@ -2,12 +2,14 @@
 
 import useFetchProducts from "@/app/hooks/useFetchProducts";
 import Product from "../molecules/ProductCard/Product";
+import { useTranslations } from "next-intl";
 
 export default function Content() {
+  const t = useTranslations("products");
   const { products, loading, error } = useFetchProducts();
 
-  if (loading) return <p className="text-center">Carregando produtos...</p>;
-  if (error) return <p className="text-center text-red-600">{error}</p>;
+  if (loading) return <p className="text-center">{t("loading")}</p>;
+  if (error) return <p className="text-center text-red-600">{t("error")}</p>;
 
   return (
     <section className="w-full px-4 py-8 bg-gray-50 flex items-center justify-center min-h-screen">

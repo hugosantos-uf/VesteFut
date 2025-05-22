@@ -1,13 +1,17 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Title } from "../atoms/Title";
 import { ContactForm } from "../molecules/ContactForm";
 
 export function ContactContent() {
+  const t = useTranslations("contact");
+
   return (
     <section className="max-w-6xl mx-auto px-4 py-12 flex flex-col items-center">
-      <Title>Fale com a VestFut</Title>
+      <Title>{t("title")}</Title>
       <p className="text-gray-600 mb-8 text-center max-w-2xl">
-        Se você tiver dúvidas, sugestões ou quiser entrar em contato com nosso
-        time, preencha o formulário abaixo. Teremos o maior prazer em responder!
+        {t("description")}
       </p>
       <ContactForm />
     </section>

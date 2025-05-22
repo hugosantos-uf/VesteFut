@@ -1,4 +1,4 @@
-import SignUpContent from "../components/templates/SignUpContent";
+import SignUpContent from "@/app/components/templates/SignUpContent";
 
 export default function SignUpPage() {
   return <SignUpContent />;

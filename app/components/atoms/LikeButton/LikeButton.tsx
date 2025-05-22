@@ -1,7 +1,11 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { useFavorites } from "@/app/context/FavoritesContext";
 import { Heart } from "lucide-react";
 
 export function LikeButton({ title }: { title: string }) {
+  const t = useTranslations("productDetails");
   const { favorites, toggleFavorite } = useFavorites();
   const isFavorite = favorites.includes(title);
 
@@ -15,7 +19,7 @@ export function LikeButton({ title }: { title: string }) {
         className={isFavorite ? "fill-red-500 text-red-500" : "text-gray-800"}
       />
       <span className={isFavorite ? "text-red-500" : "text-gray-800"}>
-        {isFavorite ? "Curtido" : "Curtir"}
+        {isFavorite ? t("liked") : t("like")}
       </span>
     </button>
   );

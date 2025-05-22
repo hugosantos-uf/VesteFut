@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "signup": "Regístrate"
+  },
+  "products": {
+    "loading": "Cargando productos...",
+    "error": "Ocurrió un error al cargar los productos."
+  },
+  "productDetails": {
+    "pixPrice": "con Pix (10% de descuento)",
+    "installments": "o 6x de R$ {value} sin intereses",
+    "promotion": "¡Aprovecha! Promoción válida hasta el domingo 🔥",
+    "like": "Me gusta",
+    "liked": "Te gusta",
+    "share": "Compartir",
+    "shareAlert": "¡Enlace copiado al portapapeles!",
+    "sizeLabel": "Tamaño",
+    "zipLabel": "Calcular envío:",
+    "zipPlaceholder": "Ingresa tu código postal",
+    "nameLabel": "Nombre personalizado en la camiseta:",
+    "namePlaceholder": "Ej: Juan Pérez",
+    "buyButton": "Comprar ahora"
+  },
+  "hero": {
+    "title": "Las camisetas de tus sueños",
+    "subtitle": "¡Compra ahora con hasta un 10% de descuento con Pix!",
+    "button": "Ver ofertas"
+  },
+  "main": {
+    "favoritesTitle": "Favoritas de la Afición",
+    "reviewsTitle": "Opiniones de los Clientes",
+    "review1": "¡Camisa de gran calidad! Llegó muy rápido.",
+    "review2": "Tela cómoda y excelente acabado.",
+    "review3": "¡Me gustó mucho la atención y la entrega!",
+    "review4": "El descuento por Pix valió mucho la pena. ¡Lo recomiendo!"
+  },
+  "footer": {
+    "description": "Camisetas oficiales de los principales clubes del mundo.",
+    "copyright": "© 2025 VestFut. Todos los derechos reservados."
+  },
+  "button": {
+    "cart": "Carrito"
+  },
+  "about": {
+    "story": {
+      "title": "Nuestra Historia",
+      "text": "VestFut nació de la pasión por el fútbol y el estilo. Desde 2023, ofrecemos camisetas de equipos que combinan autenticidad y diseño moderno."
+    },
+    "motivation": {
+      "title": "Nuestra Motivación",
+      "text": "Queremos acercar a los aficionados a sus clubes con productos de alta calidad, asequibles y con una fuerte identidad visual."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "text": "Trabajamos con ética, pasión por el deporte, respeto a la diversidad y un compromiso constante con la experiencia del cliente."
+    }
+  },
+  "contact": {
+    "title": "Contáctanos en VestFut",
+    "description": "Si tienes dudas, sugerencias o deseas ponerte en contacto con nuestro equipo, completa el formulario a continuación. ¡Será un placer responderte!",
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Tu nombre completo"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "tu@correo.com"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Escribe tu mensaje aquí"
+      },
+      "button": "Enviar Mensaje"
+    }
+  },
+  "signup": {
+    "title": "Crear cuenta en VestFut",
+    "subtitle": "¡Crea tu cuenta ahora y obtén un 10% de descuento en tus tres primeras compras y otras promociones exclusivas!",
+    "button": "Registrarse",
+    "placeholders": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar Contraseña"
+    },
+    "errors": {
+      "name": "El nombre es obligatorio",
+      "email": "Correo electrónico no válido",
+      "password": "La contraseña debe tener al menos 6 caracteres",
+      "confirmPassword": "Las contraseñas no coinciden"
+    }
+  }
+}

@@ -1,9 +1,14 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Share } from "lucide-react";
 
 export function ShareButton() {
+  const t = useTranslations("productDetails");
+
   function handleShare() {
     navigator.clipboard.writeText(window.location.href);
-    alert("Link copiado para a área de transferência!");
+    alert(t("shareAlert"));
   }
 
   return (
@@ -12,7 +17,7 @@ export function ShareButton() {
       className="flex items-center gap-1 hover:text-green-600"
     >
       <Share size={20} />
-      Compartilhar
+      {t("share")}
     </button>
   );
 }
